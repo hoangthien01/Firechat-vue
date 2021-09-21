@@ -7,6 +7,7 @@
 
     <section>
       <main ref="scrollable">
+        
         <div v-for="(msg, index) in messages" v-bind:key="'index-'+index"
              :class="['message', sentOrReceived(msg.userUID)]">
           <img :src="msg.photoURL" :alt="msg.displayName">

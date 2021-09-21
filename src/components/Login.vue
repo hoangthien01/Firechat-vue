@@ -27,7 +27,8 @@ export default {
   height: 100vh;
 
   .login-form {
-    width: 500px;
+    width: 90%;
+    max-width: 500px;
     position: absolute;
     border-radius: 10px;
     transform: translate(-50%,-50%);
